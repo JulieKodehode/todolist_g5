@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nb">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gjøremålsliste</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<header></header>
+
+		<main>
+			<!-- 
+         Gjøremålsliste:
+         1. En input vindu som tar i mot verdier
+         2. En knapp som sender input til JS
+         3. En funksjon i javascript som tar i mot og behandler input verdiene
+         4. En liste som viser frem de ulike verdiene vi setter
+         -->
+
+			<section>
+				<h1>Gjøremålsliste</h1>
+
+				<label for="taskInput">
+					Skriv et gjøremål
+					<input type="text" name="taskInput" id="taskInput" />
+				</label>
+
+				<button id="taskButton">Send inn et gjøremål!</button>
+
+				<ul id="taskList"></ul>
+			</section>
+		</main>
+
+		<footer></footer>
+	</body>
+</html>
